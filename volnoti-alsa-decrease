@@ -1,0 +1,1 @@
+amixer set Master 10%- && volnoti-show $(amixer get Master | grep -Po "[0-9]+(?=%)" | tail -1)
